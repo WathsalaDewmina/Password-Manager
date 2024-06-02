@@ -115,6 +115,9 @@ class PasswordManager:
         self.exit_button = ctk.CTkButton(master, text="Exit", command=self.exit_program, width=200)
         self.exit_button.pack(pady=10)
 
+        self.copyright_label = ctk.CTkLabel(master, text="© 2024 Wathsala Dewmina. All rights reserved.", font=("Arial", 12))
+        self.copyright_label.pack(side="bottom", pady=10)
+
     def add_password(self):
         def exit_callback():
             dialog.destroy()
