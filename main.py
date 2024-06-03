@@ -100,7 +100,7 @@ class PasswordManager:
         self.data_file = "passwords.txt"
 
         # UI Elements
-        self.label = ctk.CTkLabel(master, text="Password Manager", font=("Arial", 24))
+        self.label = ctk.CTkLabel(master, text="Encryptix Password Manager", font=("Arial", 24))
         self.label.pack(pady=40)
 
         self.add_button = ctk.CTkButton(master, text="Add Password", command=self.add_password, width=200)
@@ -115,7 +115,7 @@ class PasswordManager:
         self.exit_button = ctk.CTkButton(master, text="Exit", command=self.exit_program, width=200)
         self.exit_button.pack(pady=10)
 
-        self.copyright_label = ctk.CTkLabel(master, text="© 2024 Wathsala Dewmina. All rights reserved.", font=("Arial", 12))
+        self.copyright_label = ctk.CTkLabel(master, text="© 2024 Encryptix. All rights reserved.", font=("Arial", 12))
         self.copyright_label.pack(side="bottom", pady=10)
 
     def add_password(self):
