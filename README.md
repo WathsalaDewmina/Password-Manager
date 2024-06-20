@@ -1,6 +1,3 @@
-I apologize for the confusion. Below is the full raw Markdown code for your `README.md` file:
-
-```markdown
 # Password Manager
 
 A simple and secure password manager built using Python and Tkinter.
