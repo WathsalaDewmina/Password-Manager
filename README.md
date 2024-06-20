@@ -13,8 +13,8 @@ A simple and secure password manager built using Python and Tkinter.
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/password-manager.git
-   cd password-manager
+   git clone https://github.com/WathsalaDewmina/Password-Manager.git
+   cd Password-Manager
    ```
 
 2. Install the required packages:
@@ -58,5 +58,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
-
-You can copy and paste this raw Markdown code directly into your `README.md` file. Make sure to replace `"https://github.com/yourusername/password-manager.git"` with the actual URL of your GitHub repository.
